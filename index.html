@@ -35,7 +35,7 @@ scroll-behavior: smooth;
 
 
 <!-- 首頁 -->
-<section class="h-screen flex items-center justify-center">
+<section class="flex items-center justify-center py-24">
 
   <div class="text-center px-6 flex flex-col items-center justify-center">
 
@@ -83,7 +83,8 @@ scroll-behavior: smooth;
 </section>
 
 <!-- 專題 -->
-<section id="special" class="max-w-5xl mx-auto py-20 px-6">
+<section id="special" class="bg-white py-20">
+  <div class="max-w-5xl mx-auto px-6">
   <h2 class="text-3xl font-bold mb-6">專題</h2>
 
   <!-- 卡片 -->
@@ -106,6 +107,7 @@ scroll-behavior: smooth;
 
   <!-- 專題文字 -->
   <div class="space-y-4 text-gray-700 leading-relaxed">
+    
     <p>
       我們專題以烏龍茶蛋糕為核心商品，打造品牌「糕什麼烏龍」，結合茶文化與創新甜點，發展具市場差異化的產品。我們運用AI工具進行市場調查分析、視覺設計與行銷素材製作，提升企劃的效率與創意表現。
     </p>
@@ -118,7 +120,7 @@ scroll-behavior: smooth;
       本專題不僅展現我們將AI應用於行銷實務的能力，也培養了從產品發想到品牌規劃的整體企劃思維。
     </p>
   </div>
-
+  </div>
 </section>
 
 <!-- 證照 -->
@@ -129,7 +131,7 @@ scroll-behavior: smooth;
   <div class="space-y-8">
 
     <!-- PowerPoint -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="ppt-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ PowerPoint－專業級
       </h3>
@@ -140,15 +142,14 @@ scroll-behavior: smooth;
         我更熟悉如何讓內容兼具美觀與重點表達。
       </p>
 
-      <a href="image/ppt.pdf"
-         target="_blank"
+      <a href="1121301-3.html#ppt"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- Word -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="word-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ Word－專業級
       </h3>
@@ -159,15 +160,14 @@ scroll-behavior: smooth;
         讓我更能掌握正式文件的製作能力。
       </p>
 
-      <a href="image/word.pdf"
-         target="_blank"
+      <a href="1121301-3.html#word"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- Excel -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="excel-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ Excel－專業級
       </h3>
@@ -178,15 +178,14 @@ scroll-behavior: smooth;
         提升了資料處理與邏輯分析能力。
       </p>
 
-      <a href="image/excel.pdf"
-         target="_blank"
+      <a href="1121301-3.html#excel"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- 英文輸入 -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="keyin-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ 英文輸入－進階級
       </h3>
@@ -196,15 +195,14 @@ scroll-behavior: smooth;
         透過不斷訓練改善錯字率，也讓我在處理英文資料時更加有效率。
       </p>
 
-      <a href="image/english.pdf"
-         target="_blank"
+      <a href="1121301-3.html#keyin"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- Python -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="python-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ Python 程式設計－進階級
       </h3>
@@ -215,15 +213,14 @@ scroll-behavior: smooth;
         培養了邏輯思考與問題解決能力，也讓我對程式設計更有興趣。
       </p>
 
-      <a href="image/python.pdf"
-         target="_blank"
+      <a href="1121301-3.html#python"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- App Inventor -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="app-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         TQC+ App Inventor 程式設計
       </h3>
@@ -234,15 +231,14 @@ scroll-behavior: smooth;
         提升了對資訊科技與應用開發的興趣。
       </p>
 
-      <a href="image/app.pdf"
-         target="_blank"
+      <a href="1121301-3.html#app"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- 丙級 -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="bn-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         電腦軟體應用－丙級技術士
       </h3>
@@ -253,15 +249,14 @@ scroll-behavior: smooth;
         建立了資訊處理的基礎能力。
       </p>
 
-      <a href="image/c.pdf"
-         target="_blank"
+      <a href="1121301-3.html#bn"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
     </div>
 
     <!-- 乙級 -->
-    <div class="border rounded-lg shadow-md p-6">
+    <div id="yi-card" class="border rounded-lg shadow-md p-6">
       <h3 class="text-xl font-bold mb-3">
         電腦軟體應用－乙級技術士
       </h3>
@@ -272,8 +267,7 @@ scroll-behavior: smooth;
         我提升了效率與問題處理能力。
       </p>
 
-      <a href="image/b.pdf"
-         target="_blank"
+      <a href="1121301-3.html#yi"
          class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
          查看證照
       </a>
@@ -282,6 +276,8 @@ scroll-behavior: smooth;
   </div>
 
 </section>
+
+
 <!-- 作品 -->
 <section id="projects" class="bg-white py-20">
   <div class="max-w-5xl mx-auto px-6">
