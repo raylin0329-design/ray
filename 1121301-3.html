@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>我的證照</title>
+<title>我的證照｜學習歷程檔案</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -14,45 +14,72 @@ html{
   scroll-behavior:smooth;
 }
 </style>
-</head>
 
+</head>
 
 <body class="bg-gray-50 text-gray-800 pt-20">
 
 <!-- 導覽列 -->
 <nav class="fixed top-0 w-full bg-blue-500/95 backdrop-blur shadow z-50">
+
   <div class="max-w-7xl mx-auto px-10 py-6 flex justify-between items-center">
 
-    <!--標題-->
+    <!-- 標題 -->
     <h1 class="font-bold text-white text-2xl tracking-wide">
       學習歷程檔案
     </h1>
 
+    <!-- 選單 -->
     <div class="flex space-x-8 text-white text-base font-medium">
 
-      <a href="index.html" class="hover:underline">首頁</a>
-      <a href="index.html#about" class="hover:underline">關於我</a>
-      <a href="index.html#timeline" class="hover:underline">學習歷程</a>
-      <a href="index.html#special" class="hover:underline">專題</a>
-      <a href="index.html#skills" class="hover:underline">證照</a>
-      <a href="index.html#projects" class="hover:underline">作品</a>
+      <a href="index.html"
+         class="hover:underline hover:scale-105 transition">
+         首頁
+      </a>
+
+      <a href="index.html#about"
+         class="hover:underline hover:scale-105 transition">
+         關於我
+      </a>
+
+      <a href="index.html#timeline"
+         class="hover:underline hover:scale-105 transition">
+         學習歷程
+      </a>
+
+      <a href="index.html#special"
+         class="hover:underline hover:scale-105 transition">
+         專題
+      </a>
+
+      <a href="index.html#skills"
+         class="hover:underline hover:scale-105 transition">
+         證照
+      </a>
+
+      <a href="index.html#projects"
+         class="hover:underline hover:scale-105 transition">
+         作品
+      </a>
+
     </div>
+
   </div>
+
 </nav>
 
+<!-- 頁面標題 -->
+<section class="bg-gradient-to-r from-blue-50 to-indigo-50 py-20 shadow-sm">
 
-<body class="bg-gray-100">
+  <div class="max-w-6xl mx-auto px-6">
 
-<!-- 標題 -->
-<section class="bg-white shadow-sm">
-
-  <div class="max-w-6xl mx-auto px-6 py-10">
-
-    <h1 class="text-4xl font-bold mb-3">
+    <h1 class="text-5xl font-bold mb-4">
       我的證照
     </h1>
 
-    <p class="text-gray-600 leading-relaxed">
+    <div class="w-24 h-1 bg-blue-500 rounded mb-6"></div>
+
+    <p class="text-gray-600 leading-relaxed text-lg">
       以下為高中期間取得的資訊與文書相關證照，
       透過不斷練習與學習，
       提升自己的資訊處理、文書設計與程式設計能力。
@@ -63,241 +90,280 @@ html{
 </section>
 
 <!-- 證照區 -->
-<section class="max-w-6xl mx-auto px-6 py-16">
+<section class="max-w-6xl mx-auto px-6 py-20">
 
   <div class="grid md:grid-cols-2 gap-10">
 
     <!-- 丙級 -->
-    <div id="bn" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="bn"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/bn.png"
-           class="w-full h-80 object-cover">
+      <img src="image/bn.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
 
-        <h2 class="text-2xl font-bold mb-3">
-          電腦軟體應用－丙級技術士
-        </h2>
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">電腦軟體應用－丙級技術士</h2>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在準備丙級證照時，
-          我熟悉基本文書處理與電腦操作技巧，
-          並透過大量實作練習提升操作熟練度，
-          建立了資訊處理的基礎能力。
-        </p>
+        <div class="space-y-5">
 
-       <a href="index.html#bn-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">文書操作與基礎軟體應用。</p>
+          </div>
+
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">操作不熟悉導致速度較慢。</p>
+          </div>
+
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">大量練習與反覆模擬測驗。</p>
+          </div>
+
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">建立資訊處理基礎能力。</p>
+          </div>
+
+        </div>
 
       </div>
-
     </div>
 
     <!-- 乙級 -->
-    <div id="yi" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="yi"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/yi.png"
-           class="w-full h-80 object-cover">
+      <img src="image/yi.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">電腦軟體應用－乙級技術士</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          電腦軟體應用－乙級技術士
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">進階文書與資料整理。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在考取乙級證照的過程中，
-          需要熟悉文書處理與資料整理技巧，
-          也考驗細心度與時間管理能力。
-          透過反覆練習與模擬測驗，
-          我提升了效率與問題處理能力。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">時間壓力大。</p>
+          </div>
 
-       <a href="index.html#yi-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">計時練習。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">提升效率。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
-
     <!-- PowerPoint -->
-    <div id="ppt" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="ppt"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/ppt.png"
-           class="w-full h-80 object-cover">
+      <img src="image/ppt.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ PowerPoint－專業級</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ PowerPoint－專業級
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">簡報設計與動畫。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在準備 PowerPoint 證照的過程中，
-          我學習簡報設計、動畫效果與版面配置，
-          也提升了資訊整理與視覺表達能力。
-          透過反覆練習，我更熟悉如何讓簡報兼具美觀與重點呈現。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">版面混亂。</p>
+          </div>
 
-        <a href="index.html#ppt-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">參考範例。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">美感提升。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
     <!-- Word -->
-    <div id="word" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="word"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/word.png"
-           class="w-full h-80 object-cover">
+      <img src="image/word.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ Word－專業級</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ Word－專業級
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">文件排版。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在學習 Word 的過程中，
-          我熟悉文件排版、表格設計與格式調整技巧，
-          並透過實際操作提升文書處理效率，
-          也培養了細心與耐心。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">格式錯誤。</p>
+          </div>
 
-        <a href="index.html#word-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">反覆調整。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">細心提升。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
     <!-- Excel -->
-    <div id="excel" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="excel"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/excel.png"
-           class="w-full h-80 object-cover">
+      <img src="image/excel.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ Excel－專業級</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ Excel－專業級
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">函數與分析。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在準備 Excel 證照時，
-          我學習函數應用、資料整理與圖表分析，
-          一開始對公式操作較不熟悉，
-          但透過反覆練習後，
-          提升了資料處理與邏輯分析能力。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">公式錯誤。</p>
+          </div>
 
-        <a href="index.html#excel-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">大量練習。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">邏輯提升。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
     <!-- 英文輸入 -->
-    <div id="keyin" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="keyin"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/keyin.png"
-           class="w-full h-80 object-cover">
+      <img src="image/keyin.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ 英文輸入－進階級</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ 英文輸入－進階級
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">打字練習。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          為了提升英文輸入速度與準確率，
-          我持續練習指法與英文打字技巧，
-          透過不斷訓練改善錯字率，
-          也讓我在處理英文資料時更加有效率。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">速度慢。</p>
+          </div>
 
-        <a href="index.html#keyin-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">每天練習。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">速度提升。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
     <!-- Python -->
-    <div id="python" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="python"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/python.png"
-           class="w-full h-80 object-cover">
+      <img src="image/python.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ Python 3 程式設計－進階級</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ Python 3 程式設計－進階級
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">程式邏輯。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在準備 Python 證照的過程中，
-          我反覆練習條件判斷、迴圈與程式邏輯，
-          雖然一開始常因語法與除錯問題卡關，
-          但透過持續練習，
-          培養了邏輯思考與問題解決能力。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">語法錯誤。</p>
+          </div>
 
-        <a href="index.html#python-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">除錯練習。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">邏輯能力。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
     <!-- App Inventor -->
-    <div id="app" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+    <div id="app"
+         class="bg-white rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
 
-      <img src="image/app.png"
-           class="w-full h-80 object-cover">
+      <img src="image/app.png" class="w-full h-80 object-cover hover:scale-105 transition duration-300">
 
       <div class="p-6">
+        <h2 class="text-2xl font-bold text-blue-500 mb-6">TQC+ App Inventor 程式設計</h2>
 
-        <h2 class="text-2xl font-bold mb-3">
-          TQC+ App Inventor 程式設計
-        </h2>
+        <div class="space-y-5">
+          <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-xl">
+            <h3 class="font-bold text-blue-500 mb-2">學習內容</h3>
+            <p class="text-gray-700">APP設計。</p>
+          </div>
 
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在學習 App Inventor 的過程中，
-          我接觸到手機應用程式開發的基本概念，
-          並透過積木式程式設計理解程式邏輯與功能運作，
-          提升了對資訊科技與應用開發的興趣。
-        </p>
+          <div class="bg-red-50 border-l-4 border-red-400 p-4 rounded-xl">
+            <h3 class="font-bold text-red-500 mb-2">遇到的困難</h3>
+            <p class="text-gray-700">邏輯混亂。</p>
+          </div>
 
-       <a href="index.html#app-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-       </a>
+          <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-xl">
+            <h3 class="font-bold text-green-600 mb-2">解決方式</h3>
+            <p class="text-gray-700">拆解流程。</p>
+          </div>
 
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-xl">
+            <h3 class="font-bold text-yellow-600 mb-2">學習收穫</h3>
+            <p class="text-gray-700">應用能力。</p>
+          </div>
+        </div>
       </div>
-
     </div>
 
-    
-
   </div>
+
 
   <!-- 最下方返回 -->
   <div class="text-center mt-16">
@@ -313,11 +379,13 @@ html{
 
 </section>
 
-<!-- 頁尾 -->
-<footer class="bg-white shadow-sm py-6 text-center">
-  © 2026 林廷叡 - 個人學習歷程數位檔案
-</footer>
 
+<!-- 頁尾 -->
+<footer class="bg-white border-t py-8 text-center text-gray-400">
+
+  © 2026 林廷叡 - 個人學習歷程數位檔案
+
+</footer>
 
 </body>
 </html>
