@@ -3,292 +3,355 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>林廷叡-個人學習歷程檔案</title>
+<title>林廷叡 - 個人學習歷程檔案</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 </style>
 </head>
 
-<body class="bg-gray-50 text-gray-800 pt-20">
+<body class="bg-gray-50 text-gray-700 pt-20">
 
 <!-- 導覽列 -->
-<nav class="fixed top-0 w-full bg-blue-500 shadow z-50">
-  <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
-    <h1 class="font-bold text-white text-xl">學習歷程檔案</h1>
+<nav class="fixed top-0 w-full bg-blue-500/95 backdrop-blur shadow z-50">
+  <div class="max-w-7xl mx-auto px-10 py-6 flex justify-between items-center">
 
-    <div class="space-x-6 text-white">
-      <a href="./index.html" class="hover:underline">首頁</a>
-      <a href="#about" class="hover:underline">關於我</a>
-      <a href="#special" class="hover:underline">專題</a>
-      <a href="#skills" class="hover:underline">證照</a>
-      <a href="#projects" class="hover:underline">作品</a>
+    <!--標題-->
+    <h1 class="font-bold text-white text-2xl tracking-wide">
+      學習歷程檔案
+    </h1>
+
+    <div class="flex space-x-8 text-white text-base font-medium">
+
+      <a href="./index.html" class="hover:underline hover:scale-105 transition">首頁</a>
+      <a href="#about" class="hover:underline hover:scale-105 transition">關於我</a>
+      <a href="#timeline" class="hover:underline hover:scale-105 transition">學習歷程</a>
+      <a href="#special" class="hover:underline hover:scale-105 transition">專題</a>
+      <a href="#skills" class="hover:underline hover:scale-105 transition">證照</a>
+      <a href="#projects" class="hover:underline hover:scale-105 transition">作品</a>
+
     </div>
   </div>
 </nav>
 
 
-
-
 <!-- 首頁 -->
 <section class="flex items-center justify-center py-24">
-
-  <div class="text-center px-6 flex flex-col items-center justify-center">
+  <div class="text-center px-6 flex flex-col items-center">
 
     <!-- 大頭照 -->
-    <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl mb-6">
-    <img src="image/1121301-1.jpeg"  class="w-full h-full object-cover">
+    <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl mb-6 hover:scale-105 transition">
+      <img src="image/1121301-1.jpeg" class="w-full h-full object-cover">
     </div>
 
-    <!-- 名字 -->
-    <h1 class="text-5xl font-bold mb-6">林廷叡</h1>
+    <h1 class="text-5xl font-bold mb-4">林廷叡</h1>
 
-    <!-- 介紹 -->
-    <p class="mb-2">
-      歡迎來到我的學習歷程網頁。在高中期間，我學習了 Python 與 C++ 的基礎程式設計，並具備基本的程式邏輯與問題解決能力。
+    <p class="text-blue-500 font-semibold mb-6">
+      資料處理科學生 ｜ 網頁設計學習者 ｜ 程式設計學習者
     </p>
 
     <p class="mb-2">
+      歡迎來到我的學習歷程網頁。在高中期間，我學習 Python 與 C++ 程式設計，並具備基本邏輯與問題解決能力。
+    </p>
+
+    <p>
       同時，我運用 GitHub 建立並管理自己的網站，累積實作經驗。
     </p>
-
   </div>
-
 </section>
 
-
 <!-- 關於我 -->
-<section id="about" class="max-w-5xl mx-auto py-20 px-6">
-  <h2 class="text-3xl font-bold mb-6">關於我</h2>
-  <p class="mb-4">
-    我是一位具有責任感的學生，在學習與生活中都能認真負責完成自己的任務。
+<section id="about" class="bg-white py-20">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold mb-2">關於我</h2>
+      <div class="w-20 h-1 bg-blue-500 rounded"></div>
+    </div>
+
+    <p class="mb-4">
+      我是一位具有責任感的學生，在學習與生活中都能認真負責完成自己的任務。
     在高中的學習歷程中，從高一到高三的學業成績皆維持穩定且良好，展現持續努力與自我要求的態度。
-  </p>
+    </p>
 
-  <p class="mb-4">
-    在校期間曾擔任優良學生，並參與商業活動相關事務，擔任商業際副負責人，培養了溝通協調與團隊合作的能力。
-  </p>
+    <p class="mb-4">
+       在校期間曾擔任優良學生，並參與商業活動相關事務，擔任商業際副負責人，培養了溝通協調與團隊合作的能力。
+    </p>
 
-  <p class="mb-4">
-    在興趣方面，我喜歡運動，例如打羽毛球與騎腳踏車，透過運動讓自己保持良好的體能與專注力。
-  </p>
+    <p class="mb-4">
+      在興趣方面，我喜歡運動，例如打羽毛球與騎腳踏車，透過運動讓自己保持良好的體能與專注力。
+    </p>
 
-  <p>
-    我希望未來能持續精進資訊與程式相關能力，並將所學應用於實際生活與未來發展中。
-  </p>
+    <p>
+      我希望未來能持續精進資訊與程式相關能力，並將所學應用於實際生活與未來發展中。
+    </p>
+  </div>
+</section>
+
+<!-- 學習歷程 -->
+<section id="timeline" class="py-20">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold mb-2">學習歷程</h2>
+      <div class="w-20 h-1 bg-blue-500 rounded"></div>
+    </div>
+
+    <div class="relative border-l-4 border-blue-500 ml-6 space-y-10">
+
+      <!-- 高一 -->
+      <div class="pl-10 bg-white p-6 rounded-2xl shadow-md hover:-translate-y-1 transition">
+        <div class="absolute -left-[14px] w-6 h-6 bg-blue-500 rounded-full border-4 border-white"></div>
+
+        <h3 class="text-xl font-bold mb-2">高一</h3>
+        <p class="mb-3">
+          在高一期間開始接觸資訊相關課程，
+          學習文書處理、簡報製作與基礎資訊應用能力，
+          並逐漸培養對資訊科技與程式設計的興趣。
+        </p>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">PowerPoint</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Word</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Excel</span>
+        </div>
+      </div>
+
+      <!-- 高二 -->
+      <div class="pl-10 bg-white p-6 rounded-2xl shadow-md hover:-translate-y-1 transition">
+        <div class="absolute -left-[14px] w-6 h-6 bg-blue-500 rounded-full border-4 border-white"></div>
+
+        <h3 class="text-xl font-bold mb-2">高二</h3>
+        <p class="mb-3">
+          開始學習 Python、C++ 等程式語言，
+          並開始認識人工智慧與資料分析的基本應用，
+          培養對資訊科技的興趣。
+        </p>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Python</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">C++</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">AI</span>
+        </div>
+      </div>
+
+      <!-- 高三 -->
+      <div class="pl-10 bg-white p-6 rounded-2xl shadow-md hover:-translate-y-1 transition">
+        <div class="absolute -left-[14px] w-6 h-6 bg-blue-500 rounded-full border-4 border-white"></div>
+
+        <h3 class="text-xl font-bold mb-2">高三</h3>
+        <p class="mb-3">
+         開始自學 HTML、CSS 與 Tailwind 網頁設計，
+          並透過 GitHub 建立與管理個人網站，
+          嘗試將學習成果整合成數位學習歷程。
+        </p>
+        <div class="flex gap-2 flex-wrap">
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">HTML</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Tailwind</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">GitHub</span>
+          <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">網站設計</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 
 <!-- 專題 -->
-<section id="special" class="bg-white py-20">
+<section id="special" class="bg-gradient-to-r from-blue-50 to-indigo-50 py-20">
   <div class="max-w-5xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-6">專題</h2>
 
-  <!-- 卡片 -->
-  <div class="mb-10">
-    <a href="1121301-2.html" class="block w-1/2 mx-auto">
-      <div class="border rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+    <!-- 標題 -->
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold mb-2">專題</h2>
+      <div class="w-20 h-1 bg-blue-500 rounded"></div>
+    </div>
 
-        <!-- 圖片 -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+
+      <a href="1121301-2.html" class="block">
         <img src="image/aipic.png"
-             class="w-full h-64 object-cover">
+             class="w-full h-72 object-cover hover:opacity-90 transition">
+      </a>
 
-        <!-- 文字 -->
-        <div class="p-3 text-center text-gray-700 text-sm">
+      <!-- 文字 -->
+      <div class="p-6 space-y-3 text-gray-600">
+
+        <p>
+          專題以烏龍茶蛋糕為主題，結合 AI 行銷分析與品牌設計。
+        </p>
+
+        <p>
+          透過問卷與市場分析建立品牌定位與策略。
+        </p>
+
+        <p>
+          本專題展現 AI 與行銷結合的應用能力，並提升企劃與設計能力。
+        </p>
+
+        <p class="text-center text-blue-500 font-medium pt-2 border-t border-gray-100">
           點擊圖片可查看完整專題內容
-        </div>
+        </p>
 
       </div>
-    </a>
-  </div>
 
-  <!-- 專題文字 -->
-  <div class="space-y-4 text-gray-700 leading-relaxed">
-    
-    <p>
-      我們專題以烏龍茶蛋糕為核心商品，打造品牌「糕什麼烏龍」，結合茶文化與創新甜點，發展具市場差異化的產品。我們運用AI工具進行市場調查分析、視覺設計與行銷素材製作，提升企劃的效率與創意表現。
-    </p>
+    </div>
 
-    <p>
-      在企劃過程中，透過問卷分析了解消費者對茶類甜點的偏好，進一步明確品牌定位與目標客群，並規劃相應的行銷策略，如社群宣傳與視覺內容設計，使產品更具吸引力與市場競爭力。
-    </p>
-
-    <p>
-      本專題不僅展現我們將AI應用於行銷實務的能力，也培養了從產品發想到品牌規劃的整體企劃思維。
-    </p>
-  </div>
   </div>
 </section>
 
+
 <!-- 證照 -->
-<section id="skills" class="max-w-5xl mx-auto py-20 px-6">
+<section id="skills" class="bg-gray-50 py-20">
+  <div class="max-w-5xl mx-auto px-6">
 
-  <h2 class="text-3xl font-bold mb-8">證照</h2>
-
-  <div class="space-y-8">
-
-    <!-- PowerPoint -->
-    <div id="ppt-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ PowerPoint－專業級
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在準備 PowerPoint 證照的過程中，我學習簡報設計、版面配置與動畫效果應用，
-        也提升了資訊整理與視覺呈現能力。透過反覆練習，
-        我更熟悉如何讓內容兼具美觀與重點表達。
-      </p>
-
-      <a href="1121301-3.html#ppt"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
+    <!-- 標題 -->
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold mb-2">證照</h2>
+      <div class="w-20 h-1 bg-blue-500 rounded"></div>
     </div>
 
-    <!-- Word -->
-    <div id="word-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ Word－專業級
-      </h3>
+    <div class="space-y-8">
 
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在學習 Word 的過程中，我熟悉文件排版、表格設計與格式調整技巧，
-        並透過實際操作提升文書處理效率。準備考試時也培養了細心與耐心，
-        讓我更能掌握正式文件的製作能力。
-      </p>
+      <!-- 丙級 -->
+      <div id="bn-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">電腦軟體應用－丙級技術士</h3>
 
-      <a href="1121301-3.html#word"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備電腦軟體應用丙級技術士證照的過程中，我學會了目錄製作、表格設計、文件排版、合併列印與檔案管理等文書處理技巧。透過實作練習，也提升了中英文打字速度與準確度，並熟悉 Word 各項功能操作。這些訓練讓我在電腦文書處理與版面設定上更加熟練。
+        </p>
+
+        <a href="1121301-3.html#bn"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- 乙級 -->
+      <div id="yi-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">電腦軟體應用－乙級技術士</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備電腦軟體應用乙級技術士證照的過程中，我學會了跨軟體整合的資料處理能力，包含 Access 資料庫查詢與關聯設定、Excel 樞紐分析與函數應用，以及 Word 的長文件排版與表格設計，透過實作，我更熟悉不同軟體的資料整合，也提升了大量資料處理與排版的效率與準確度，對電腦文書與資料分析有更完整的理解。
+        </p>
+
+        <a href="1121301-3.html#yi"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- PowerPoint -->
+      <div id="ppt-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ PowerPoint－專業級</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC PowerPoint 認證的過程中，我學會了如何製作較完整且有一致性的簡報，像是套用母片、加入動畫效果，以及整理版面配置等功能。透過不斷練習，也讓我更熟悉 PowerPoint 的操作方式，能更有效率地完成簡報內容，同時提升自己在資訊整理與美編設計上的能力。
+        </p>
+
+        <a href="1121301-3.html#ppt"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- Word -->
+      <div id="word-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ Word－專業級</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC Word 認證的過程中，我學會了許多文書處理技巧，像是文件排版、表格設計、圖片與文字的搭配，以及頁首頁尾與目錄設定等功能。透過反覆練習，也讓我更熟悉 Word 的操作方式，提升打字與排版效率，並培養自己在文件整理與細節處理上的能力。
+        </p>
+
+        <a href="1121301-3.html#word"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- Excel -->
+      <div id="excel-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ Excel－專業級</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC Excel 認證的過程中，我學會了使用 Excel 進行資料整理、函數計算與圖表製作，也更熟悉排序、篩選及樞紐分析等功能。透過實際操作練習，讓我提升了資料處理的效率與細心度，並培養自己分析數據與整理資訊的能力。
+        </p>
+
+        <a href="1121301-3.html#excel"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- 英文輸入 -->
+      <div id="keyin-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ 英文輸入－進階級</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC 英文輸入認證的過程中，我提升了英文打字的速度與準確率，也更加熟悉鍵盤位置與大小寫、符號的輸入方式。透過持續練習，讓我培養出更好的鍵盤熟練度，也能更有效率地完成英文文書輸入工作。
+
+        </p>
+
+        <a href="1121301-3.html#keyin"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- Python -->
+      <div id="python-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ Python 3 程式設計</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC+ Python 3 認證的過程中，我學會了 Python 的基礎程式語法與邏輯觀念，像是變數、迴圈、條件判斷以及串列與字典的應用。透過實作練習，我逐漸培養了解決問題與邏輯思考的能力，也更加熟悉如何利用程式完成資料處理與檔案操作，提升自己在程式設計方面的實作能力。
+        </p>
+
+        <a href="1121301-3.html#python"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
+      <!-- App Inventor -->
+      <div id="app-card" class="scroll-mt-32 bg-white border-l-4 border-blue-500 rounded-2xl shadow-md p-6 hover:-translate-y-2 hover:shadow-xl transition duration-300">
+        <h3 class="text-xl font-bold mb-3">TQC+ App Inventor 程式設計</h3>
+
+        <p class="text-gray-600 leading-relaxed mb-4">
+          在準備 TQC+ App Inventor 認證的過程中，我學會了如何設計手機 App 的操作介面，並透過拼塊程式建立功能邏輯，像是按鈕控制、條件判斷與資料處理等。透過實際操作，我提升了自己的程式邏輯與問題解決能力，也更了解行動應用程式的基本開發流程。
+        </p>
+
+        <a href="1121301-3.html#app"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-full hover:bg-blue-600 hover:scale-105 transition">
+          查看證照
+        </a>
+      </div>
+
     </div>
-
-    <!-- Excel -->
-    <div id="excel-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ Excel－專業級
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在準備 Excel 證照時，我學習函數應用、資料整理與圖表分析，
-        一開始對公式操作較不熟悉，但透過反覆練習後，
-        提升了資料處理與邏輯分析能力。
-      </p>
-
-      <a href="1121301-3.html#excel"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
-    <!-- 英文輸入 -->
-    <div id="keyin-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ 英文輸入－進階級
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        為了提升英文輸入速度與準確率，我持續練習指法與英文打字技巧，
-        透過不斷訓練改善錯字率，也讓我在處理英文資料時更加有效率。
-      </p>
-
-      <a href="1121301-3.html#keyin"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
-    <!-- Python -->
-    <div id="python-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ Python 程式設計－進階級
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在準備 Python 證照的過程中，我反覆練習條件判斷、迴圈與程式邏輯，
-        雖然一開始常因語法與除錯問題卡關，但透過持續練習，
-        培養了邏輯思考與問題解決能力，也讓我對程式設計更有興趣。
-      </p>
-
-      <a href="1121301-3.html#python"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
-    <!-- App Inventor -->
-    <div id="app-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        TQC+ App Inventor 程式設計
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在學習 App Inventor 的過程中，我接觸到手機應用程式開發的基本概念，
-        並透過積木式程式設計理解程式邏輯與功能運作，
-        提升了對資訊科技與應用開發的興趣。
-      </p>
-
-      <a href="1121301-3.html#app"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
-    <!-- 丙級 -->
-    <div id="bn-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        電腦軟體應用－丙級技術士
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在準備丙級證照時，我熟悉基本文書處理與電腦操作技巧，
-        並透過大量實作練習提升操作熟練度，
-        建立了資訊處理的基礎能力。
-      </p>
-
-      <a href="1121301-3.html#bn"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
-    <!-- 乙級 -->
-    <div id="yi-card" class="border rounded-lg shadow-md p-6">
-      <h3 class="text-xl font-bold mb-3">
-        電腦軟體應用－乙級技術士
-      </h3>
-
-      <p class="text-gray-700 leading-relaxed mb-4">
-        在考取乙級證照的過程中，需要熟悉文書處理與資料整理技巧，
-        也考驗細心度與時間管理能力。透過反覆練習與模擬測驗，
-        我提升了效率與問題處理能力。
-      </p>
-
-      <a href="1121301-3.html#yi"
-         class="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-         查看證照
-      </a>
-    </div>
-
   </div>
-
 </section>
 
 
 <!-- 作品 -->
-<section id="projects" class="bg-white py-20">
+<section id="projects" class="bg-gray-100 py-20">
   <div class="max-w-5xl mx-auto px-6">
-  <h2 class="text-3xl font-bold mb-6">作品</h2>
-  <p>之後可以放專題、程式作品、網站作品或圖片展示。
-</p>
+
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold mb-2">作品</h2>
+      <div class="w-20 h-1 bg-blue-500 rounded"></div>
+    </div>
+
+    <div class="bg-white p-8 rounded-2xl shadow text-gray-600">
+      持續整理中，未來將加入網站作品、程式專案與設計成果。
+    </div>
+
+  </div>
 </section>
 
 <!-- 頁尾 -->
 <footer class="text-center py-10 text-gray-400">
-  © 2026 林廷叡 - 個人學習歷程數位檔案
+  © 2026 林廷叡 - 個人學習歷程
 </footer>
 
 </body>
