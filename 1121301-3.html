@@ -18,17 +18,24 @@ html{
 
 
 <body class="bg-gray-50 text-gray-800 pt-20">
-<!-- 導覽列 -->
-<nav class="fixed top-0 w-full bg-blue-500 shadow z-50">
-  <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
-    <h1 class="font-bold text-white text-xl">學習歷程檔案</h1>
 
-    <div class="space-x-6 text-white">
-      <a href="./index.html" class="hover:underline">首頁</a>
-      <a href="./index.html#about" class="hover:underline">關於我</a>
-      <a href="./index.html#special" class="hover:underline">專題</a>
-      <a href="./index.html#skills" class="hover:underline">證照</a>
-      <a href="./index.html#projects" class="hover:underline">作品</a>
+<!-- 導覽列 -->
+<nav class="fixed top-0 w-full bg-blue-500/95 backdrop-blur shadow z-50">
+  <div class="max-w-7xl mx-auto px-10 py-6 flex justify-between items-center">
+
+    <!--標題-->
+    <h1 class="font-bold text-white text-2xl tracking-wide">
+      學習歷程檔案
+    </h1>
+
+    <div class="flex space-x-8 text-white text-base font-medium">
+
+      <a href="index.html" class="hover:underline">首頁</a>
+      <a href="index.html#about" class="hover:underline">關於我</a>
+      <a href="index.html#timeline" class="hover:underline">學習歷程</a>
+      <a href="index.html#special" class="hover:underline">專題</a>
+      <a href="index.html#skills" class="hover:underline">證照</a>
+      <a href="index.html#projects" class="hover:underline">作品</a>
     </div>
   </div>
 </nav>
@@ -59,6 +66,64 @@ html{
 <section class="max-w-6xl mx-auto px-6 py-16">
 
   <div class="grid md:grid-cols-2 gap-10">
+
+    <!-- 丙級 -->
+    <div id="bn" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+
+      <img src="image/bn.png"
+           class="w-full h-80 object-cover">
+
+      <div class="p-6">
+
+        <h2 class="text-2xl font-bold mb-3">
+          電腦軟體應用－丙級技術士
+        </h2>
+
+        <p class="text-gray-700 leading-relaxed mb-6">
+          在準備丙級證照時，
+          我熟悉基本文書處理與電腦操作技巧，
+          並透過大量實作練習提升操作熟練度，
+          建立了資訊處理的基礎能力。
+        </p>
+
+       <a href="index.html#bn-card"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
+           返回證照區
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- 乙級 -->
+    <div id="yi" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
+
+      <img src="image/yi.png"
+           class="w-full h-80 object-cover">
+
+      <div class="p-6">
+
+        <h2 class="text-2xl font-bold mb-3">
+          電腦軟體應用－乙級技術士
+        </h2>
+
+        <p class="text-gray-700 leading-relaxed mb-6">
+          在考取乙級證照的過程中，
+          需要熟悉文書處理與資料整理技巧，
+          也考驗細心度與時間管理能力。
+          透過反覆練習與模擬測驗，
+          我提升了效率與問題處理能力。
+        </p>
+
+       <a href="index.html#yi-card"
+           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
+           返回證照區
+        </a>
+
+      </div>
+
+    </div>
+
 
     <!-- PowerPoint -->
     <div id="ppt" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
@@ -182,7 +247,7 @@ html{
       <div class="p-6">
 
         <h2 class="text-2xl font-bold mb-3">
-          TQC+ Python 程式設計－進階級
+          TQC+ Python 3 程式設計－進階級
         </h2>
 
         <p class="text-gray-700 leading-relaxed mb-6">
@@ -230,62 +295,7 @@ html{
 
     </div>
 
-    <!-- 丙級 -->
-    <div id="bn" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
-
-      <img src="image/bn.png"
-           class="w-full h-80 object-cover">
-
-      <div class="p-6">
-
-        <h2 class="text-2xl font-bold mb-3">
-          電腦軟體應用－丙級技術士
-        </h2>
-
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在準備丙級證照時，
-          我熟悉基本文書處理與電腦操作技巧，
-          並透過大量實作練習提升操作熟練度，
-          建立了資訊處理的基礎能力。
-        </p>
-
-       <a href="index.html#bn-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
-
-      </div>
-
-    </div>
-
-    <!-- 乙級 -->
-    <div id="yi" class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition">
-
-      <img src="image/yi.png"
-           class="w-full h-80 object-cover">
-
-      <div class="p-6">
-
-        <h2 class="text-2xl font-bold mb-3">
-          電腦軟體應用－乙級技術士
-        </h2>
-
-        <p class="text-gray-700 leading-relaxed mb-6">
-          在考取乙級證照的過程中，
-          需要熟悉文書處理與資料整理技巧，
-          也考驗細心度與時間管理能力。
-          透過反覆練習與模擬測驗，
-          我提升了效率與問題處理能力。
-        </p>
-
-       <a href="index.html#yi-card"
-           class="inline-block bg-blue-500 text-white px-5 py-2 rounded-lg hover:bg-blue-600 transition">
-           返回證照區
-        </a>
-
-      </div>
-
-    </div>
+    
 
   </div>
 
