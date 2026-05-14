@@ -22,25 +22,27 @@ html{
 <nav class="fixed top-0 w-full bg-blue-500/95 backdrop-blur shadow z-50">
   <div class="max-w-7xl mx-auto px-10 py-6 flex justify-between items-center">
 
-    <!--標題-->
+     <!--標題-->
     <h1 class="font-bold text-white text-2xl tracking-wide">
       學習歷程檔案
     </h1>
 
     <div class="flex space-x-8 text-white text-base font-medium">
 
-      <a href="index.html" class="hover:underline">首頁</a>
-      <a href="index.html#about" class="hover:underline">關於我</a>
-      <a href="index.html#timeline" class="hover:underline">學習歷程</a>
-      <a href="index.html#special" class="hover:underline">專題</a>
-      <a href="index.html#skills" class="hover:underline">證照</a>
-      <a href="index.html#projects" class="hover:underline">作品</a>
+      <a href="./index.html" class="hover:underline hover:text-gray-200 transition">首頁</a>
+      <a href="#summary" class="hover:underline hover:text-gray-200 transition">摘要</a>
+      <a href="#motivation" class="hover:underline hover:text-gray-200 transition">動機</a>
+      <a href="#process" class="hover:underline hover:text-gray-200 transition">負責/流程</a>
+      <a href="#result" class="hover:underline hover:text-gray-200 transition">成果</a>
+      <a href="#reflection" class="hover:underline hover:text-gray-200 transition">挑戰/反思</a>
+
     </div>
+
   </div>
 </nav>
 
 <!-- 專題首頁 -->
-<section class="bg-gradient-to-r from-blue-500 to-sky-400 text-white py-24">
+<section id="top" class="bg-gradient-to-r from-blue-500 to-sky-400 text-white py-24">
 
   <div class="max-w-6xl mx-auto px-6 text-center">
 
@@ -147,38 +149,37 @@ html{
 
 </section>
 
-<!-- 專題介紹 -->
-<section class="bg-white py-20">
+<!-- 專題摘要 -->
+<section id="summary" class="bg-white py-20">
 
   <div class="max-w-5xl mx-auto px-6">
 
-    <h2 class="text-3xl font-bold mb-8">
-      專題介紹
-    </h2>
+    <div class="bg-gradient-to-r from-blue-500 to-sky-400 text-white rounded-3xl shadow-xl p-10">
 
-    <div class="space-y-6 text-gray-700 leading-relaxed">
+      <h2 class="text-4xl font-bold mb-6">
+        專題摘要
+      </h2>
 
-      <p>
-        在本次專題成果發表中，我們以「AI輔助商業行銷企劃」為核心主題，
-        結合烏龍茶特色與甜點市場需求，打造品牌「糕什麼烏龍」。
-        從產品發想到品牌設計，我們運用多種 AI 工具提升企劃完整度，
-        並透過市場分析與問卷調查，規劃符合目標客群需求的行銷策略。
-      </p>
+      <div class="w-24 h-1 bg-white rounded-full mb-8"></div>
 
-      <p>
-        在專題製作過程中，我主要負責 AI 工具應用、簡報整合與成果展示。
-        我利用 ChatGPT 協助分析問卷結果與消費者偏好，
-        並使用 Luma AI 製作行銷影片，
-        透過 Krea AI 生成產品形象圖片，
-        讓品牌視覺與行銷內容更加完整。
-      </p>
+      <p class="leading-relaxed text-lg">
+        本專題以「AI輔助商業行銷企劃」為核心，
+        嘗試探討人工智慧工具於品牌行銷與市場分析中的應用可能性。
+        我們以烏龍茶蛋糕作為核心商品，
+        結合台灣茶文化特色與甜點市場需求，
+        規劃品牌「糕什麼烏龍」之產品定位與行銷策略。
 
-      <p>
-        最終，我們成功完成專題成果展示，
-        並在成果發表中榮獲第二名。
-        這次經驗讓我學習到團隊合作、
-        行銷企劃與 AI 工具整合應用的重要性，
-        也提升了我的簡報表達與問題解決能力。
+        在專題製作過程中，
+        我們透過市場調查、問卷分析與消費者需求研究，
+        建立目標客群輪廓，
+        並運用 ChatGPT、Luma AI、Krea AI 等工具，
+        協助完成資料分析、視覺設計與行銷素材製作，
+        提升企劃整合效率與品牌呈現完整度。
+
+        本次專題不僅讓我實際體驗 AI 工具於商業領域中的應用方式，
+        也培養我在問題分析、團隊合作與簡報表達上的能力。
+        最終，團隊於專題成果發表中榮獲第二名，
+        進一步強化我對資訊科技與商業整合領域的學習興趣。
       </p>
 
     </div>
@@ -187,55 +188,139 @@ html{
 
 </section>
 
-<!-- 我的負責內容 -->
-<section class="py-20">
+
+<!-- 研究動機 -->
+<section id="motivation" class="py-20 bg-gray-50">
 
   <div class="max-w-6xl mx-auto px-6">
 
-    <h2 class="text-3xl font-bold mb-10">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
+      研究動機
+    </h2>
+
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- 卡片1 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 hover:-translate-y-2 duration-300">
+
+        <h3 class="text-2xl font-bold text-blue-500 mb-5">
+          結合在地文化與市場需求
+        </h3>
+
+        <p class="text-gray-600 leading-relaxed">
+          在觀察現今甜點市場趨勢後，
+          我們發現具有在地特色與文化元素的產品，
+          更容易建立品牌辨識度與市場記憶點。
+          因此，我們希望將台灣烏龍茶文化與甜點商品結合，
+          透過創新方式重新詮釋傳統茶元素，
+          並嘗試規劃符合年輕族群需求的品牌定位與行銷策略。
+        </p>
+
+      </div>
+
+      <!-- 卡片2 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 hover:-translate-y-2 duration-300">
+
+        <h3 class="text-2xl font-bold text-blue-500 mb-5">
+          探索 AI 與商業整合應用
+        </h3>
+
+        <p class="text-gray-600 leading-relaxed">
+          隨著人工智慧技術快速發展，
+          AI 已逐漸被應用於資料分析、視覺設計與行銷企劃等領域。
+          因此，我希望透過本次專題，
+          實際嘗試將 AI 工具應用於商業企劃流程中，
+          並從中了解科技如何提升資訊整合效率、
+          優化品牌行銷內容與輔助決策分析。
+
+          透過本次研究，
+          我也更加確立自己對資訊科技與商業管理整合領域的學習興趣。
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- 我的負責內容 -->
+<section id="process" class="bg-white py-20">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
       我的負責內容
     </h2>
 
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
+
     <div class="grid md:grid-cols-3 gap-8">
 
-      <div class="bg-white rounded-2xl shadow-lg p-8 hover:-translate-y-2 duration-300">
+      <!-- 卡片1 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 hover:-translate-y-3 hover:shadow-2xl duration-300 border border-gray-100">
+
+        <div class="text-blue-500 text-5xl mb-5">
+          📊
+        </div>
 
         <h3 class="text-blue-500 font-bold text-2xl mb-4">
-          AI 工具應用
+          資料分析與 AI 應用
         </h3>
 
         <p class="text-gray-600 leading-relaxed">
-          使用 ChatGPT 分析問卷資料與市場需求，
-          並透過 AI 工具生成行銷素材，
-          提升企劃效率與創意表現。
+          運用 ChatGPT 協助整理與分析問卷資料，
+          歸納消費者偏好與市場需求，
+          並透過 AI 工具生成行銷素材與品牌內容，
+          提升資料整合效率與企劃完整度，
+          培養資訊分析與科技應用能力。
         </p>
 
       </div>
 
-      <div class="bg-white rounded-2xl shadow-lg p-8 hover:-translate-y-2 duration-300">
+      <!-- 卡片2 -->
+<div class="bg-white rounded-3xl shadow-lg p-8 hover:-translate-y-3 hover:shadow-2xl duration-300 border border-gray-100">
+
+  <div class="text-blue-500 text-5xl mb-5">
+    👑
+  </div>
+
+  <h3 class="text-blue-500 font-bold text-2xl mb-4">
+    專題統籌與團隊分工管理
+  </h3>
+
+  <p class="text-gray-600 leading-relaxed">
+    身為小組長，負責整體專題進度規劃與任務分配，
+    依據組員專長進行分工，確保各階段工作能如期完成。
+
+    在執行過程中，持續追蹤各組員進度並進行整合，
+    協調不同意見與工作內容，避免重複或資訊落差，
+    提升團隊溝通效率與專案整體一致性。
+  </p>
+
+</div>
+
+      <!-- 卡片3 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 hover:-translate-y-3 hover:shadow-2xl duration-300 border border-gray-100">
+
+        <div class="text-blue-500 text-5xl mb-5">
+          🎤
+        </div>
 
         <h3 class="text-blue-500 font-bold text-2xl mb-4">
-          視覺設計
+          成果發表與團隊溝通
         </h3>
 
         <p class="text-gray-600 leading-relaxed">
-          負責簡報版面設計與內容整合，
-          強化品牌視覺風格與資訊呈現效果，
-          提升整體專題質感。
-        </p>
-
-      </div>
-
-      <div class="bg-white rounded-2xl shadow-lg p-8 hover:-translate-y-2 duration-300">
-
-        <h3 class="text-blue-500 font-bold text-2xl mb-4">
-          成果發表
-        </h3>
-
-        <p class="text-gray-600 leading-relaxed">
-          擔任上台報告角色，
-          將專題理念與行銷策略清楚傳達給評審與觀眾，
-          提升口語表達能力。
+          擔任專題成果發表與團隊溝通角色，
+          負責統整企劃內容並向評審進行簡報說明，
+          在過程中培養口語表達、
+          臨場應變與團隊協調能力，
+          提升跨領域整合與溝通能力。
         </p>
 
       </div>
@@ -246,95 +331,101 @@ html{
 
 </section>
 
+
+
+
+<!-- 專題製作流程 -->
 <section class="bg-white py-20">
 
   <div class="max-w-5xl mx-auto px-6">
 
-    <h2 class="text-3xl font-bold mb-10">
-      團隊合作與遇到的困難
-    </h2>
 
-    <div class="space-y-6 text-gray-700 leading-relaxed">
-
-      <p>
-        在本次專題中，我擔任小組組長，主要負責整體進度規劃與任務分工協調，確保專題能依照時程順利完成。
-      </p>
-
-      <p>
-        在專題初期，我們曾遇到分工不均與進度不同步的問題，導致部分工作內容無法有效整合，影響整體進度與效率。
-      </p>
-
-      <p>
-        為了解決這個問題，我重新調整任務分配方式，依照每位組員的能力與專長進行分工，並定期確認各組員進度，同時加強團隊溝通，使合作流程更加順暢。
-      </p>
-
-      <p>
-        透過這次經驗，我學習到團隊管理與溝通協調的重要性，也提升了自身在領導能力與問題解決能力上的成長。
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-
-
-<!-- 專題流程 -->
-<section class="py-20">
-
-  <div class="max-w-5xl mx-auto px-6">
-
-    <h2 class="text-3xl font-bold mb-10">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
       專題製作流程
     </h2>
 
-    <div class="space-y-8 border-l-4 border-blue-500 pl-8">
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-12"></div>
 
-      <div>
-        <h3 class="text-xl font-bold mb-2">
-          1. 市場調查
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Step 1 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-blue-500 hover:-translate-y-2 duration-300">
+
+        <div class="text-5xl font-bold text-blue-500 mb-4">
+          01
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4">
+          市場調查與需求分析
         </h3>
 
-        <p class="text-gray-600">
-          透過問卷調查分析消費者需求，
-          確認目標客群與市場方向。
+        <p class="text-gray-600 leading-relaxed">
+          透過問卷調查與市場資料蒐集，
+          分析消費者對甜點產品與茶類商品的偏好，
+          建立目標客群輪廓，
+          作為後續品牌企劃與產品定位依據。
         </p>
+
       </div>
 
-      <div>
-        <h3 class="text-xl font-bold mb-2">
-          2. 品牌企劃
+      <!-- Step 2 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-blue-500 hover:-translate-y-2 duration-300">
+
+        <div class="text-5xl font-bold text-blue-500 mb-4">
+          02
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4">
+          品牌定位與產品企劃
         </h3>
 
-        <p class="text-gray-600">
-          建立「糕什麼烏龍」品牌形象，
-          規劃產品特色與品牌定位。
+        <p class="text-gray-600 leading-relaxed">
+          以烏龍茶蛋糕作為核心商品，
+          規劃品牌名稱、產品特色與市場定位，
+          並思考品牌形象與目標客群之間的連結，
+          建立完整行銷企劃方向。
         </p>
+
       </div>
 
-      <div>
-        <h3 class="text-xl font-bold mb-2">
-          3. AI 行銷設計
+      <!-- Step 3 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-blue-500 hover:-translate-y-2 duration-300">
+
+        <div class="text-5xl font-bold text-blue-500 mb-4">
+          03
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4">
+          AI 工具整合應用
         </h3>
 
-        <p class="text-gray-600">
-          使用 AI 工具生成圖片與影片，
-          提升品牌視覺與行銷效果。
+        <p class="text-gray-600 leading-relaxed">
+          運用 ChatGPT、Luma AI 與 Krea AI 等工具，
+          協助完成資料分析、視覺設計與行銷素材製作，
+          提升企劃效率與品牌內容完整度，
+          並探索 AI 與商業整合應用的可能性。
         </p>
+
       </div>
 
-      <div>
-        <h3 class="text-xl font-bold mb-2">
-          4. 成果展示
+      <!-- Step 4 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-blue-500 hover:-translate-y-2 duration-300">
+
+        <div class="text-5xl font-bold text-blue-500 mb-4">
+          04
+        </div>
+
+        <h3 class="text-2xl font-bold mb-4">
+          成果展示與專題發表
         </h3>
 
-        <p class="text-gray-600">
-          完成簡報發表並榮獲第二名，
-          展現團隊合作與企劃成果。
+        <p class="text-gray-600 leading-relaxed">
+          完成專題簡報、品牌展示與成果發表，
+          並向評審說明市場分析、
+          品牌理念與 AI 工具應用成果，
+          最終於專題成果競賽中榮獲第二名。
         </p>
+
       </div>
 
     </div>
@@ -343,81 +434,132 @@ html{
 
 </section>
 
+
 <!-- 成果數據 -->
-<section class="bg-white py-20">
+<section id="result" class="bg-gray-50 py-20">
 
   <div class="max-w-5xl mx-auto px-6">
 
-    <div class="grid grid-cols-3 gap-8 text-center">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
+      專題成果數據
+    </h2>
 
-      <div class="bg-white p-8 rounded-2xl shadow-lg">
-        <h3 class="text-5xl font-bold text-blue-500 mb-3">
-          2nd
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
+
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+
+      <!-- 成果1 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border-t-4 border-blue-500">
+
+        <h3 class="text-4xl font-bold text-blue-500 mb-3">
+          第二名
         </h3>
 
-        <p class="text-gray-600">
-          專題競賽名次
+        <p class="text-gray-700 font-semibold mb-2">
+          專題競賽成果
         </p>
+
+        <p class="text-gray-500 text-sm">
+          完成市場分析、品牌企劃與AI應用整合，於成果發表中獲獎
+        </p>
+
       </div>
 
-      <div class="bg-white p-8 rounded-2xl shadow-lg">
-        <h3 class="text-5xl font-bold text-blue-500 mb-3">
-          7+
+      <!-- 成果2 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border-t-4 border-green-500">
+
+        <h3 class="text-4xl font-bold text-green-500 mb-3">
+          7+ AI工具
         </h3>
 
-        <p class="text-gray-600">
-          AI 工具應用
+        <p class="text-gray-700 font-semibold mb-2">
+          跨工具整合應用能力
         </p>
+
+        <p class="text-gray-500 text-sm">
+          使用 ChatGPT、Luma AI、Krea AI、Canva 等完成行銷內容製作
+        </p>
+
       </div>
 
-      <div class="bg-white p-8 rounded-2xl shadow-lg">
-        <h3 class="text-5xl font-bold text-blue-500 mb-3">
-          100%
+      <!-- 成果3 -->
+      <div class="bg-white p-8 rounded-3xl shadow-lg border-t-4 border-yellow-500">
+
+        <h3 class="text-4xl font-bold text-yellow-500 mb-3">
+          專題全完成
         </h3>
 
-        <p class="text-gray-600">
-          團隊合作完成
+        <p class="text-gray-700 font-semibold mb-2">
+          專案執行完整度
         </p>
+
+        <p class="text-gray-500 text-sm">
+          從市場調查、品牌設計到成果發表全流程完成
+        </p>
+
       </div>
 
     </div>
+   <p class="text-center text-gray-400 mt-6 text-sm">
+  ※ 成果結合 AI 工具應用與商業行銷企劃完整實作
+   </p>
 
   </div>
 
 </section>
 
-<!-- 圖片展示 -->
-<section class="py-20">
 
-  <div class="max-w-6xl mx-auto px-6">
+<!-- 專題成果展示 -->
+<section class="bg-gray-50 py-20">
 
-    <h2 class="text-3xl font-bold mb-10">
+  <div class="max-w-5xl mx-auto px-6">
+
+
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
       專題成果展示
     </h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
 
-      <div class="bg-gray-100 rounded-2xl shadow-lg overflow-hidden">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-        <img src="image/1121301-2.jpeg"
-        class="w-full aspect-square object-cover hover:scale-105 duration-300">
+      <!-- 成果1 -->
+      <div class="bg-gray-50 rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 duration-300">
 
-        <div class="p-5">
-          <p class="text-gray-600 text-center">
-            與「糕什麼烏龍」專題成果合影
+        <div class="overflow-hidden">
+          <img src="image/1121301-2.jpeg"
+               class="w-full aspect-square object-cover hover:scale-105 duration-300">
+        </div>
+
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-blue-500 mb-2">
+            專題成果實體展示
+          </h3>
+
+          <p class="text-gray-600">
+            展示「糕什麼烏龍」專題成果實體與團隊合影，
+            呈現品牌設計與行銷企劃實作成果。
           </p>
         </div>
 
       </div>
 
-      <div class="bg-gray-100 rounded-2xl shadow-lg overflow-hidden">
+      <!-- 成果2 -->
+      <div class="bg-gray-50 rounded-3xl shadow-lg overflow-hidden hover:-translate-y-2 duration-300">
 
-        <img src="image/1121301-3.jpeg"
-        class="w-full aspect-square object-cover hover:scale-105 duration-300">
+        <div class="overflow-hidden">
+          <img src="image/1121301-3.jpeg"
+               class="w-full aspect-square object-cover hover:scale-105 duration-300">
+        </div>
 
-        <div class="p-5">
-          <p class="text-gray-600 text-center">
-            專題成果發表榮獲第二名
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-blue-500 mb-2">
+            專題競賽成果
+          </h3>
+
+          <p class="text-gray-600">
+            在專題成果發表中榮獲第二名，
+            展現市場分析、AI應用與團隊合作整合能力。
           </p>
         </div>
 
@@ -429,29 +571,184 @@ html{
 
 </section>
 
-<!-- 心得 -->
-<section class="bg-white py-20">
+
+<!-- 遇到的困難 -->
+<section id="reflection" class="py-20 bg-white">
 
   <div class="max-w-5xl mx-auto px-6">
 
-    <div class="bg-blue-500 text-white rounded-3xl p-10 shadow-xl">
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
+      專題執行中的挑戰
+    </h2>
 
-      <h2 class="text-3xl font-bold mb-6">
-        專題心得
-      </h2>
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
 
-      <p class="leading-relaxed text-lg">
-        透過這次專題，我學習到如何運用 AI 工具協助市場分析與行銷企劃，
-        並培養資料整理、問題分析與簡報設計能力。在團隊合作過程中，
-        我也提升了溝通協調與口語表達能力，也更加了解科技與行銷整合的重要性，
-        對未來資訊與商業領域的學習方向有更明確的目標。
-      </p>
+    <div class="space-y-8">
+
+      <!-- 困難1 -->
+      <div class="bg-gray-50 rounded-3xl p-8 border-l-8 border-red-400 shadow-sm">
+
+        <h3 class="text-2xl font-bold mb-3 text-red-500">
+          ① 團隊分工不明確，導致進度不同步
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed mb-4">
+          在專題初期，由於任務分配較為模糊，部分組員對自身負責內容理解不一致，
+          導致進度落差，整體整合效率下降。
+        </p>
+
+        <p class="text-gray-700 leading-relaxed">
+          <span class="font-bold text-blue-500">解決方式：</span>
+          重新調整分工方式，依照組員能力與專長重新分配任務，
+          並建立固定進度回報機制（每週確認完成進度），
+          提升團隊協作效率與透明度。
+        </p>
+
+      </div>
+
+      <!-- 困難2 -->
+      <div class="bg-gray-50 rounded-3xl p-8 border-l-8 border-yellow-400 shadow-sm">
+
+        <h3 class="text-2xl font-bold mb-3 text-yellow-600">
+          ② AI工具輸出結果不穩定，需反覆調整
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed mb-4">
+          在使用 ChatGPT、Krea AI 與 Luma AI 時，
+          初期生成的內容與預期品牌風格不一致，
+          例如圖片風格偏差、行銷內容不夠精準。
+        </p>
+
+        <p class="text-gray-700 leading-relaxed">
+          <span class="font-bold text-blue-500">解決方式：</span>
+          透過反覆優化 Prompt（提示詞），並整理成功範例模板，
+          逐步建立AI輸出規則，使生成結果更符合品牌定位，
+          提升素材品質與穩定性。
+        </p>
+
+      </div>
+
+      <!-- 困難3 -->
+      <div class="bg-gray-50 rounded-3xl p-8 border-l-8 border-blue-400 shadow-sm">
+
+        <h3 class="text-2xl font-bold mb-3 text-blue-500">
+          ③ 資料整合困難，資訊過於分散
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed mb-4">
+          在問卷與市場資料分析過程中，
+          資料來源分散且內容龐雜，
+          初期難以快速整理出有效結論。
+        </p>
+
+        <p class="text-gray-700 leading-relaxed">
+          <span class="font-bold text-blue-500">解決方式：</span>
+          使用 ChatGPT 協助分類與摘要資料，
+          並建立表格化整理方式，
+          將資料轉換為可視化結論，
+          提升分析效率與決策清晰度。
+        </p>
+
+      </div>
 
     </div>
 
   </div>
 
 </section>
+
+
+
+<!-- 學習收穫與反思 -->
+<section class="py-20 bg-white">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+
+    <h2 class="text-4xl font-bold text-gray-800 mb-4">
+      學習收穫與反思
+    </h2>
+
+    <div class="w-24 h-1 bg-blue-500 rounded-full mb-10"></div>
+
+    <div class="space-y-8">
+
+      <!-- 收穫1 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-blue-500">
+
+        <h3 class="text-2xl font-bold mb-3 text-blue-500">
+          AI 工具應用能力的建立
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          透過本次專題，我從單純使用 AI 工具，
+          進一步學會如何將 ChatGPT、Krea AI 與 Luma AI
+          實際整合至商業行銷流程中。
+          我理解到 AI 不只是生成工具，而是可以作為
+          資料整理、創意發想與內容優化的輔助系統，
+          提升整體企劃效率與品質。
+        </p>
+
+      </div>
+
+      <!-- 收穫2 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-green-500">
+
+        <h3 class="text-2xl font-bold mb-3 text-green-600">
+          問題分析與解決能力的提升
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          在專題執行過程中，我學會將問題拆解為不同層面，
+          例如團隊分工、資料整理與工具應用等，
+          並逐步找出改善方法。
+          透過「問題分析 → 方法調整 → 結果驗證」的過程，
+          我建立了更有系統的解決問題思維，
+          也讓專題執行更加穩定。
+        </p>
+
+      </div>
+
+      <!-- 收穫3 -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-yellow-400">
+
+        <h3 class="text-2xl font-bold mb-3 text-yellow-600">
+          跨領域整合與專案管理能力
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          本專題結合資訊科技與商業行銷兩個領域，
+          讓我實際體驗跨領域整合的過程。
+          從市場分析、品牌設計到簡報發表，
+          我學會如何統整不同資訊並轉化為具體成果，
+          同時也提升了時間管理與團隊協作能力。
+        </p>
+
+      </div>
+
+      <!-- 收穫4（加分核心） -->
+      <div class="bg-white rounded-3xl shadow-lg p-8 border-l-8 border-purple-500">
+
+        <h3 class="text-2xl font-bold mb-3 text-purple-600">
+          未來學習方向與延伸思考
+        </h3>
+
+        <p class="text-gray-700 leading-relaxed">
+          透過本次專題，我更加確立自己對
+          「資訊科技 × 商業應用 × AI 數位行銷」領域的興趣。
+          未來希望能進一步學習資料分析、數位行銷策略與 AI 應用技術，
+          並將此次專題經驗延伸至更完整的商業數據分析與系統化專案設計，
+          持續強化跨領域整合能力。
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
 
 <!-- 頁尾 -->
 <footer class="text-center py-10 text-gray-400">
